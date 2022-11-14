@@ -1,0 +1,12 @@
+<h1>Stupid Coaching</h1>
+<br>
+<div class="callout callout-default">
+  <%= params[:ask] %>
+  <p>- You</p>
+</div>
+<div class="callout callout-warning">
+  <%= @answer %>
+  <p>- Your coach</p>
+</div>
+<br>
+<%= link_to "Ask a new question", ask_path %>
